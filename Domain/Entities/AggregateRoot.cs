@@ -1,7 +1,7 @@
 ﻿// src/Domain/Entities/AggregateRoot.cs
-using SaaS.MaundCalculator.Domain.Events;
+using Domain.Events;
 
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public abstract class AggregateRoot<TKey> : Entity<TKey>, IAggregateRoot
 {

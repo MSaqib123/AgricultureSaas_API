@@ -1,7 +1,7 @@
 ﻿// src/Domain/Entities/Records/KaniRecord.cs
-using SaaS.MaundCalculator.Domain.Events;
+using Domain.Events;
 
-namespace SaaS.MaundCalculator.Domain.Entities.Records;
+namespace Domain.Entities.Records;
 
 public class KaniRecord : Entity<Guid>, ITenantEntity, ISoftDeletable, IAuditable
 {

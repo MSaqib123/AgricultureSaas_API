@@ -1,8 +1,8 @@
 ﻿// src/Domain/Entities/Records/KapasRecord.cs
-using SaaS.MaundCalculator.Domain.Events;
+using Domain.Events;
 using System;
 
-namespace SaaS.MaundCalculator.Domain.Entities.Records;
+namespace Domain.Entities.Records;
 
 public class KapasRecord : Entity<Guid>, ITenantEntity, ISoftDeletable, IAuditable
 {

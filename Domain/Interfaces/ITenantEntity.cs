@@ -1,5 +1,5 @@
 ﻿// src/Domain/Entities/ITenantEntity.cs
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public interface ITenantEntity
 {

@@ -1,7 +1,7 @@
 ﻿// src/Domain/Entities/IAggregateRoot.cs
-using SaaS.MaundCalculator.Domain.Events;
+using Domain.Events;
 
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public interface IAggregateRoot
 {

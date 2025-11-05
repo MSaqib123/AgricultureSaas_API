@@ -1,4 +1,4 @@
-﻿using SaaS.MaundCalculator.Domain.Events;
+﻿using Domain.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;

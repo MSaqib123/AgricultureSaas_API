@@ -1,5 +1,5 @@
 ﻿// src/Domain/Entities/AppUser.cs
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public class AppUser : Entity<Guid>
 {

@@ -1,4 +1,4 @@
 ﻿// src/Domain/Events/SubscriptionActivatedEvent.cs
-namespace SaaS.MaundCalculator.Domain.Events;
+namespace Domain.Events;
 
 public record SubscriptionActivatedEvent(Guid TenantId, Guid SubscriptionId) : IDomainEvent;

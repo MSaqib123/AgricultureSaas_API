@@ -1,4 +1,4 @@
 ﻿// src/Domain/Events/IDomainEvent.cs
-namespace SaaS.MaundCalculator.Domain.Events;
+namespace Domain.Events;
 
 public interface IDomainEvent { }

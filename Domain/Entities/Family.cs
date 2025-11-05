@@ -1,5 +1,5 @@
 ﻿// src/Domain/Entities/Family.cs
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public class Family : Entity<int>, ITenantEntity
 {

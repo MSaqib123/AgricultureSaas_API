@@ -1,8 +1,8 @@
 ﻿// src/Domain/Entities/TenantAggregate/Tenant.cs
 using Domain.Events;
-using SaaS.MaundCalculator.Domain.Entities;
-using SaaS.MaundCalculator.Domain.Entities.TenantAggregate;
-using SaaS.MaundCalculator.Domain.Events;
+using Domain.Entities;
+using Domain.Entities.TenantAggregate;
+using Domain.Events;
 
 namespace Domain.Entities.TenantAggregate;
 

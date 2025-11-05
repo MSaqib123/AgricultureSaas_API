@@ -1,5 +1,5 @@
 ﻿// src/Domain/Entities/Entity.cs
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public abstract class Entity<TKey>
 {

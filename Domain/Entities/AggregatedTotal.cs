@@ -1,5 +1,5 @@
 ﻿// src/Domain/Entities/AggregatedTotal.cs
-namespace SaaS.MaundCalculator.Domain.Entities;
+namespace Domain.Entities;
 
 public class AggregatedTotal : Entity<Guid>
 {

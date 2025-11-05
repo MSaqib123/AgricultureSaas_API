@@ -1,5 +1,5 @@
 ﻿// src/Domain/ValueObjects/Money.cs
-namespace SaaS.MaundCalculator.Domain.ValueObjects;
+namespace Domain.ValueObjects;
 
 public record Money(decimal Amount, string Currency = "PKR")
 {

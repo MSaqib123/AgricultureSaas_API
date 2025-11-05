@@ -1,5 +1,5 @@
 ﻿// src/Domain/Entities/Records/MaundCalculation.cs
-namespace SaaS.MaundCalculator.Domain.Entities.Records;
+namespace Domain.Entities.Records;
 
 public class MaundCalculation : Entity<Guid>, ITenantEntity
 {

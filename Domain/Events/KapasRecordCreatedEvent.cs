@@ -1,5 +1,5 @@
 ﻿// src/Domain/Events/KapasRecordCreatedEvent.cs
-namespace SaaS.MaundCalculator.Domain.Events;
+namespace Domain.Events;
 
 public record KapasRecordCreatedEvent(
     Guid RecordId,

@@ -1,7 +1,7 @@
 ﻿// src/Domain/Entities/TenantAggregate/Subscription.cs
-using SaaS.MaundCalculator.Domain.ValueObjects;
+using Domain.ValueObjects;
 
-namespace SaaS.MaundCalculator.Domain.Entities.TenantAggregate;
+namespace Domain.Entities.TenantAggregate;
 
 public class Subscription : Entity<Guid>
 {

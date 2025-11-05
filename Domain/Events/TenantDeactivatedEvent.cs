@@ -1,4 +1,4 @@
 ﻿// src/Domain/Events/TenantDeactivatedEvent.cs
-namespace SaaS.MaundCalculator.Domain.Events;
+namespace Domain.Events;
 
 public record TenantDeactivatedEvent(Guid TenantId, string Reason) : IDomainEvent;
